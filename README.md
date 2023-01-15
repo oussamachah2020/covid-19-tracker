@@ -27,8 +27,9 @@ this project is meant to track the statistics of covid cases around the world
 | :-------- | :------- | :-------------------------------- |
 | `country_name`      | `string` | **Required**: country_name to fetch |
 
+#### using the `fetch` inside `useEffect` hook api to get data
 
-
+![code](https://user-images.githubusercontent.com/72669865/212563654-92929bc2-dfc3-486d-8f7d-c9740528b95f.png)
 
 ## Features
 
