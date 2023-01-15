@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__right {
+  padding: 10px;
+}
+
+.App {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.app__left {
+  flex: 0.9;
+}
+
+@media (max-width: 990px) {
+  .App {
+    flex-direction: column;
+  }
+}
